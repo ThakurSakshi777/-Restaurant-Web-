@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link} from 'react-router-dom';
 import {GiHamburgerMenu} from 'react-icons/gi';
-import {data} from '../Pages/restApi.json';
+import {data} from '../restApi.json';
 
 const Navebar = () => {
     const [ show , setShow ] = useState(false);
